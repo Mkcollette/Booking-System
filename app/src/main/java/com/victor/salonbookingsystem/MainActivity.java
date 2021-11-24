@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
         new Handler().postDelayed((Runnable) () -> {
-            Intent i= new Intent(MainActivity.this,Registration.class);
+            Intent i= new Intent(MainActivity.this,Log_in.class);
             startActivity(i);
             finish();
         },SPLASH_TIME_OUT);
